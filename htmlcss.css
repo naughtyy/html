@@ -1,0 +1,53 @@
+div {
+  color: blue;
+}
+.alert-text {
+  color: red;
+}
+#title {
+  background-color: red;
+}
+.read {
+  font-size: large;
+}
+.unread {
+  font-weight: 200;
+}
+.read,
+.unread {
+  color: white;
+  background-color: black;
+} /*grouping selectors*/
+
+.subsection.header {
+  color: red;
+} /*chaining selectors*/
+
+.subsection#preview {
+  color: violet;
+}
+.ancestor .contents {
+  /*.contents is a child of .ancestor */
+  background-color: green;
+} /*descendant combinator*/
+.first_declared,
+.last_declared {
+  background-color: rgb(200, 50, 150);
+  font-weight: 800;
+  font-size: 50px;
+}
+.first_declared {
+  color: rgb(50, 50, 200);
+  font-size: 32px;
+}
+.last_declared {
+  font-size: 14px;
+  font-weight: 800;
+}
+#color_hsl {
+  color: hsl(15, 82%, 56%);
+}
+img {
+  height: auto;
+  width: 500px;
+}

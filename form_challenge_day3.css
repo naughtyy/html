@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+body {
+  background-color: papayawhip;
+}
+p {
+  font-size: 30px;
+  font-weight: 800;
+  color: palevioletred;
+  font-family: "Sriracha", cursive;
+  text-align: center;
+}
+fieldset {
+  text-align: center;
+  margin: auto;
+  width: 30rem;
+  border: 5px solid palevioletred;
+  border-radius: 5px;
+}
+label {
+  width: 50%;
+  height: 50%;
+  font-size: 15px;
+}
+input {
+  border: none;
+  border-bottom: 2px solid palevioletred;
+  font-size: 15px;
+}
+input:focus {
+  background-color: palevioletred;
+  border: 5px solid palevioletred;
+}
+textarea {
+  width: 40%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid palevioletred;
+  border-radius: 4px;
+}
+.button {
+  background-color: papayawhip;
+  font-family: "Sriracha", cursive;
+  font-size: 15px;
+  color: palevioletred;
+}

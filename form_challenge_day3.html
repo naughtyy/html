@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form_challenge_day3.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>BOUCHRA FORM CSS</p>
+    <form>
+      <fieldset>
+        <legend>Personal details</legend>
+        <label>salutations</label><br />
+        <select>
+          <option value="none">--None--</option></select
+        ><br /><br />
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last name: </label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="gender">Gender :</label>
+        <input type="radio" id="gender" name="gender" value="gender" /> Male
+        <input
+          type="radio"
+          id="gender"
+          name="gender"
+          value="gender"
+        />Female<br />
+        <br />
+
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="on"
+        /><br /><br />
+        <label for="dob">Date of Birth: </label>
+        <input
+          type="date"
+          id="dob"
+          name="dob"
+          placeholder="dd/mm/yyyy"
+        /><br /><br />
+        <label for="address">Address : </label><br />
+        <textarea name="address" id="address" cols="50" rows="4"></textarea>
+        <br /><br />
+        <input class="button" type="submit" value="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
