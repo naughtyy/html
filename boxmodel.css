@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.box-one {
+  background-color: aquamarine;
+  padding: 10px;
+  border: 20px solid rebeccapurple;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+}
+.box-two {
+  background-color: rgb(205, 156, 209);
+  padding: 10px;
+  border: 20px solid rgb(32, 10, 54);
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+}

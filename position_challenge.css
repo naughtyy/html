@@ -1,0 +1,141 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+main {
+  position: relative;
+}
+nav {
+  background-color: rgb(60, 196, 105);
+  position: sticky;
+  top: 0;
+  display: block;
+  width: 100%;
+}
+nav > div {
+  width: 50rem;
+  margin: auto;
+}
+nav div div {
+  display: inline-block;
+}
+.logo {
+  margin: auto;
+  background-color: white;
+  padding: 3px;
+}
+.logo > img {
+  width: 5rem;
+  height: 5rem;
+}
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: small;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+li a:hover {
+  background-color: rgb(36, 37, 36);
+}
+li {
+  display: inline-block;
+}
+header {
+  position: relative;
+  width: 100%;
+  background-color: rgb(60, 196, 105);
+  display: block;
+  top: 0;
+  z-index: -1;
+}
+header > article {
+  position: relative;
+  display: inline-block;
+  background-image: url(photo_black_white.jpg);
+  width: 80%;
+  height: 80vh;
+  /*top: 80px;*/
+  background-size: cover;
+}
+header > div {
+  display: inline-block;
+  position: absolute;
+}
+article > div > button {
+  border-radius: 50%;
+  border: none;
+  margin: 10px;
+  font-size: 18px;
+}
+#button- {
+  width: 23px;
+}
+article > div {
+  margin-left: 50px;
+  margin-top: 150px;
+  margin-bottom: 0px;
+}
+#stay_with_techoners {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20rem;
+  right: 15vw;
+  padding: 40px;
+}
+#learn_more {
+  position: absolute;
+  top: 15rem;
+  right: 8rem;
+}
+
+.right_side {
+  display: inline-block;
+  background-color: rgb(60, 196, 105);
+  bottom: 0;
+}
+main > section {
+  display: block;
+  top: 80px;
+}
+button {
+  background-color: rgb(60, 196, 105);
+  color: white;
+  border: none;
+}
+.buttons_learn_services {
+  font-size: small;
+  padding: 10px 20px;
+  height: 50px;
+  width: 150px;
+}
+.right_side > a {
+  text-decoration: none;
+  color: white;
+  padding: 30px 20px;
+}
+.first-box,
+.second-box,
+.third-box {
+  display: inline-block;
+  width: 25%;
+  padding: 50px;
+  margin: auto;
+}
+.icons-box {
+  width: 30px;
+  height: auto;
+}
+p {
+  font-size: small;
+}
