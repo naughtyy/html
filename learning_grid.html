@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      .grid-item {
+        border: 2px solid black;
+        padding: 10px;
+        background-color: aqua;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: repeat(3, 100px);
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 20px;
+        grid-template-areas:
+          "header header"
+          "sidebar content"
+          "sidebar content";
+      }
+      .grid-item-1 {
+        /* grid-column-start: 1;
+        grid-column-end: -1; */
+        grid-column: 1 / -1;
+      }
+      .grid-item-2 {
+        /* grid-area: sidebar; */
+        grid-row: 2 / -1;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="grid-container">
+      <div class="grid-item grid-item-1">Grid Item 1</div>
+      <div class="grid-item grid-item-2">Grid Item 2</div>
+      <div class="grid-item grid-item-3">Grid Item 3</div>
+    </main>
+  </body>
+</html>

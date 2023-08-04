@@ -1,0 +1,150 @@
+body {
+  font-family: sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 250px repeat(5, 200px);
+  grid-auto-rows: minmax(150px, auto);
+  gap: 10px;
+  width: 35rem;
+  height: 45rem;
+  margin: auto;
+}
+
+.grid-item-1 {
+  background-image: url(image1_grid.jpg);
+  background-size: cover;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+.grid-item-2 {
+  background-image: url(image2_grid.jpg);
+  background-color: rgba(6, 5, 7, 0.192);
+  background-blend-mode: multiply; /*to apply opacity to an image*/
+  background-size: cover;
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+.grid-item-3 {
+  background-image: url(image3_grid.jpg);
+  background-size: cover;
+  grid-column: 3 / -1;
+  grid-row: 2 / 3;
+}
+.grid-item-4 {
+  background-image: url(image4_grid.jpg);
+  background-size: cover;
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+}
+.grid-item-5 {
+  background-image: url(image5_grid.jpg);
+  background-size: cover;
+  grid-column: 1 / 3;
+  grid-row: 4 / 5;
+}
+.grid-item-6 {
+  background-image: url(image6_grid.jpg);
+  background-size: cover;
+  grid-column: 3 / 5;
+  grid-row: 4 / 5;
+}
+.grid-item-7 {
+  background-image: url(image7_grid.jpg);
+  background-size: cover;
+  grid-column: 5 / -1;
+  grid-row: 3 / 5;
+}
+.grid-item-8 {
+  background-image: url(image8_grid.jpg);
+  background-size: cover;
+  grid-column: 1 / 4;
+  grid-row: 5 / 6;
+}
+.grid-item-9 {
+  background-image: url(image9_grid.jpg);
+  background-size: cover;
+  grid-column: 4 / -1;
+  grid-row: 5 / 6;
+}
+h6,
+h2,
+h3,
+p {
+  color: rgb(47, 16, 82);
+  margin-left: 30px;
+  margin-bottom: 8px;
+}
+p {
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+#leonardo {
+  font-size: 8px;
+  margin-top: 0;
+}
+.small-paragraph {
+  font-size: 8px;
+  text-align: center;
+  margin-top: 0;
+}
+
+button {
+  border: 2px solid rgb(156, 128, 192);
+  background-color: rgba(47, 16, 82, 0.658);
+  font-size: 8px;
+  color: rgb(239, 237, 241);
+  padding: 5px;
+  width: 80px;
+  transition: width 2s;
+}
+button:hover {
+  background-color: rgb(47, 16, 82);
+}
+.button-1:hover {
+  width: 200px;
+}
+.button-1 {
+  margin-top: 130px;
+  margin-left: 30px;
+}
+.button-3 {
+  margin-top: 85px;
+  margin-left: 20px;
+}
+.button-4 {
+  margin-top: 85px;
+  margin-left: 73%;
+}
+.button-5 {
+  margin-top: 110px;
+  margin-left: 20px;
+}
+.button-6 {
+  margin-top: 18px;
+  margin-left: 28%;
+}
+.button-7 {
+  margin-top: 300px;
+  margin-left: 20px;
+}
+.button-8 {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.button-9 {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+h6 {
+  margin-top: 0;
+  font-size: 9px;
+  margin-left: 20px;
+}
+h3 {
+  margin-left: 20px;
+}
